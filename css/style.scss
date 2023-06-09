@@ -468,7 +468,8 @@ path {
 /*-------------------------openpopup------------------------*/
 
 .openpopup {
-    background: linear-gradient(98.53deg, #E7C200 43.48%, #FBE054 67.98%, #E7C200 94.35%);
+    // background: linear-gradient(98.53deg, #E7C200 43.48%, #FBE054 67.98%, #E7C200 94.35%);
+    background-color: #E7C200;
     box-shadow: 0px 4px 40px rgba(0, 0, 0, 0.25);
     border-radius: 8px;
     max-width: 100%;
@@ -495,10 +496,10 @@ path {
         left: -60px;
         width: 30px;
         content: '';
-        animation: moving 2s ease-in-out infinite;
-        transform: skewX(-45deg) translateX(0);
+        // animation: moving 2s ease-in-out infinite;
+        // transform: skewX(-45deg) translateX(0);
         background-color: rgba(255, 255, 255, 0.3);
-        -webkit-animation: moving 2s ease-in-out infinite;
+        // -webkit-animation: moving 2s ease-in-out infinite;
     }
 
     &:hover {
@@ -1310,7 +1311,8 @@ path {
             z-index: 1;
             top: -20px;
             left: calc(50% - 18px);
-            background: linear-gradient(65.73deg, #E7C200 31.08%, #FBE054 61.92%, #E7C200 95.12%);
+            // background: linear-gradient(65.73deg, #E7C200 31.08%, #FBE054 61.92%, #E7C200 95.12%);
+            background-color: #E7C200;
             box-shadow: 0px 4px 20px rgba(150, 150, 150, 0.25);
             width: 35px;
             height: 35px;
@@ -1349,6 +1351,7 @@ path {
             height: 100%;
             z-index: 1;
             border-radius: 100px;
+            background-color: #E7C200;
             background: linear-gradient(98.53deg, #E7C200 43.48%, #FBE054 67.98%, #E7C200 94.35%);
             transition: all 0.3s ease-in-out;
             -webkit-transition: all 0.3s ease-in-out;
@@ -1440,7 +1443,8 @@ path {
         top: 2px;
         width: 17px;
         height: 17px;
-        background: linear-gradient(98.53deg, #E7C200 43.48%, #FBE054 67.98%, #E7C200 94.35%);
+        // background: linear-gradient(98.53deg, #E7C200 43.48%, #FBE054 67.98%, #E7C200 94.35%);
+        background-color: #E7C200;
         border-radius: 50%;
         -webkit-border-radius: 50%;
         -moz-border-radius: 50%;
@@ -2492,11 +2496,11 @@ body {
         display: flex;
         align-items: center;
         justify-content: center;
-        transition: all 0.3s ease-in-out;
-        -webkit-transition: all 0.3s ease-in-out;
-        -moz-transition: all 0.3s ease-in-out;
-        -ms-transition: all 0.3s ease-in-out;
-        -o-transition: all 0.3s ease-in-out;
+        // transition: all 0.3s ease-in-out;
+        // -webkit-transition: all 0.3s ease-in-out;
+        // -moz-transition: all 0.3s ease-in-out;
+        // -ms-transition: all 0.3s ease-in-out;
+        // -o-transition: all 0.3s ease-in-out;
         flex-direction: column;
     }
 
@@ -2511,13 +2515,14 @@ body {
         -moz-border-radius: 50%;
         -ms-border-radius: 50%;
         -o-border-radius: 50%;
-        background: linear-gradient(98.53deg, #E7C200 43.48%, #FBE054 67.98%, #E7C200 94.35%);
+        // background: linear-gradient(98.53deg, #E7C200 43.48%, #FBE054 67.98%, #E7C200 94.35%);
+        background-color: #E7C200;
         box-shadow: 0px 4px 40px rgba(36, 36, 36, 0.2);
-        transition: all 0.3s ease-in-out;
-        -webkit-transition: all 0.3s ease-in-out;
-        -moz-transition: all 0.3s ease-in-out;
-        -ms-transition: all 0.3s ease-in-out;
-        -o-transition: all 0.3s ease-in-out;
+        // transition: all 0.3s ease-in-out;
+        // -webkit-transition: all 0.3s ease-in-out;
+        // -moz-transition: all 0.3s ease-in-out;
+        // -ms-transition: all 0.3s ease-in-out;
+        // -o-transition: all 0.3s ease-in-out;
         padding-left: 3px;
         position: relative;
 

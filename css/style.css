@@ -335,11 +335,6 @@ path {
   margin-right: 13px;
 }
 .header__soclink span {
-  transition: all 0.3s ease-in-out;
-  -webkit-transition: all 0.3s ease-in-out;
-  -moz-transition: all 0.3s ease-in-out;
-  -ms-transition: all 0.3s ease-in-out;
-  -o-transition: all 0.3s ease-in-out;
   font-weight: 300;
   font-size: 14px;
   line-height: 17px;
@@ -358,11 +353,6 @@ path {
   margin-right: 5px;
   align-items: center;
   justify-content: center;
-  transition: all 0.3s ease-in-out;
-  -webkit-transition: all 0.3s ease-in-out;
-  -moz-transition: all 0.3s ease-in-out;
-  -ms-transition: all 0.3s ease-in-out;
-  -o-transition: all 0.3s ease-in-out;
 }
 .header__links {
   flex-basis: 27.7%;
@@ -379,11 +369,6 @@ path {
   line-height: 15px;
   text-decoration-line: underline;
   color: #FFFFFF;
-  transition: all 0.3s ease-in-out;
-  -webkit-transition: all 0.3s ease-in-out;
-  -moz-transition: all 0.3s ease-in-out;
-  -ms-transition: all 0.3s ease-in-out;
-  -o-transition: all 0.3s ease-in-out;
   display: inline-block;
   padding-left: 5px;
 }
@@ -425,7 +410,7 @@ path {
 
 /*-------------------------openpopup------------------------*/
 .openpopup {
-  background: linear-gradient(98.53deg, #E7C200 43.48%, #FBE054 67.98%, #E7C200 94.35%);
+  background-color: #E7C200;
   box-shadow: 0px 4px 40px rgba(0, 0, 0, 0.25);
   border-radius: 8px;
   max-width: 100%;
@@ -435,11 +420,6 @@ path {
   justify-content: center;
   height: 58px;
   border: 0;
-  transition: all 0.3s ease-in-out;
-  -webkit-transition: all 0.3s ease-in-out;
-  -moz-transition: all 0.3s ease-in-out;
-  -ms-transition: all 0.3s ease-in-out;
-  -o-transition: all 0.3s ease-in-out;
   outline: none;
   cursor: pointer;
   position: relative;
@@ -452,10 +432,7 @@ path {
   left: -60px;
   width: 30px;
   content: "";
-  animation: moving 2s ease-in-out infinite;
-  transform: skewX(-45deg) translateX(0);
   background-color: rgba(255, 255, 255, 0.3);
-  -webkit-animation: moving 2s ease-in-out infinite;
 }
 .openpopup:hover {
   opacity: 0.9;
@@ -513,11 +490,6 @@ path {
 .firstins__videblink {
   box-shadow: 0px 4px 40px rgba(0, 0, 0, 0.1);
   position: relative;
-  transition: all 0.3s ease-in-out;
-  -webkit-transition: all 0.3s ease-in-out;
-  -moz-transition: all 0.3s ease-in-out;
-  -ms-transition: all 0.3s ease-in-out;
-  -o-transition: all 0.3s ease-in-out;
   flex-direction: column;
   position: relative;
 }
@@ -528,10 +500,6 @@ path {
   width: 130px;
   height: 130px;
   border-radius: 50%;
-  -webkit-border-radius: 50%;
-  -moz-border-radius: 50%;
-  -ms-border-radius: 50%;
-  -o-border-radius: 50%;
   line-height: 0;
   position: relative;
   z-index: 4;
@@ -566,11 +534,6 @@ path {
   -ms-border-radius: 50%;
   -o-border-radius: 50%;
   background: rgba(255, 255, 255, 0.2);
-  transition: all 0.4s ease-in-out;
-  -webkit-transition: all 0.4s ease-in-out;
-  -moz-transition: all 0.4s ease-in-out;
-  -ms-transition: all 0.4s ease-in-out;
-  -o-transition: all 0.4s ease-in-out;
   width: 108%;
   height: 108%;
   position: absolute;
@@ -863,11 +826,6 @@ path {
   text-align: center;
   text-transform: uppercase;
   flex-basis: calc(20% - 2px);
-  transition: all 0.3s ease-in-out;
-  -webkit-transition: all 0.3s ease-in-out;
-  -moz-transition: all 0.3s ease-in-out;
-  -ms-transition: all 0.3s ease-in-out;
-  -o-transition: all 0.3s ease-in-out;
   border: 1px solid transparent;
   box-sizing: border-box;
   border-radius: 6px;
@@ -903,11 +861,6 @@ path {
   align-items: center;
   cursor: pointer;
   justify-content: center;
-  transition: all 0.2s ease-in-out;
-  -webkit-transition: all 0.2s ease-in-out;
-  -moz-transition: all 0.2s ease-in-out;
-  -ms-transition: all 0.2s ease-in-out;
-  -o-transition: all 0.2s ease-in-out;
   font-weight: 600;
   font-size: 18px;
   line-height: 1.22;
@@ -1022,11 +975,6 @@ path {
 .quizespan span {
   margin-left: 15px;
   display: inline-block;
-  transition: all 0.3s ease-in-out;
-  -webkit-transition: all 0.3s ease-in-out;
-  -moz-transition: all 0.3s ease-in-out;
-  -ms-transition: all 0.3s ease-in-out;
-  -o-transition: all 0.3s ease-in-out;
   font-weight: 300;
   font-size: 18px;
   line-height: 22px;
@@ -1034,11 +982,6 @@ path {
 }
 
 .quizespan__icon {
-  transition: all 0.3s ease-in-out;
-  -webkit-transition: all 0.3s ease-in-out;
-  -moz-transition: all 0.3s ease-in-out;
-  -ms-transition: all 0.3s ease-in-out;
-  -o-transition: all 0.3s ease-in-out;
   width: 65px;
   height: 61.75px;
   display: flex;
@@ -1129,11 +1072,6 @@ path {
   text-align: center;
   background-color: #fff;
   color: #2F2F2F;
-  transition: all 0.3s ease-in-out;
-  -webkit-transition: all 0.3s ease-in-out;
-  -moz-transition: all 0.3s ease-in-out;
-  -ms-transition: all 0.3s ease-in-out;
-  -o-transition: all 0.3s ease-in-out;
   position: relative;
   padding-bottom: 30px;
   padding-top: 30px;
@@ -1144,11 +1082,6 @@ path {
   color: #fff;
 }
 .quizebl__span:before {
-  transition: all 0.3s ease-in-out;
-  -webkit-transition: all 0.3s ease-in-out;
-  -moz-transition: all 0.3s ease-in-out;
-  -ms-transition: all 0.3s ease-in-out;
-  -o-transition: all 0.3s ease-in-out;
   content: "";
   display: block;
   border-radius: 50%;
@@ -1161,7 +1094,7 @@ path {
   z-index: 1;
   top: -20px;
   left: calc(50% - 18px);
-  background: linear-gradient(65.73deg, #E7C200 31.08%, #FBE054 61.92%, #E7C200 95.12%);
+  background-color: #E7C200;
   box-shadow: 0px 4px 20px rgba(150, 150, 150, 0.25);
   width: 35px;
   height: 35px;
@@ -1196,12 +1129,7 @@ path {
   height: 100%;
   z-index: 1;
   border-radius: 100px;
-  background: linear-gradient(98.53deg, #E7C200 43.48%, #FBE054 67.98%, #E7C200 94.35%);
-  transition: all 0.3s ease-in-out;
-  -webkit-transition: all 0.3s ease-in-out;
-  -moz-transition: all 0.3s ease-in-out;
-  -ms-transition: all 0.3s ease-in-out;
-  -o-transition: all 0.3s ease-in-out;
+  background-color: #E7C200;
   display: block;
   width: 16%;
 }
@@ -1260,7 +1188,7 @@ path {
   top: 2px;
   width: 17px;
   height: 17px;
-  background: linear-gradient(98.53deg, #E7C200 43.48%, #FBE054 67.98%, #E7C200 94.35%);
+  background-color: #E7C200;
   border-radius: 50%;
   -webkit-border-radius: 50%;
   -moz-border-radius: 50%;
@@ -2156,11 +2084,6 @@ body .slick-next {
   display: flex;
   align-items: center;
   justify-content: center;
-  transition: all 0.3s ease-in-out;
-  -webkit-transition: all 0.3s ease-in-out;
-  -moz-transition: all 0.3s ease-in-out;
-  -ms-transition: all 0.3s ease-in-out;
-  -o-transition: all 0.3s ease-in-out;
   flex-direction: column;
 }
 .reference__link {
@@ -2174,13 +2097,8 @@ body .slick-next {
   -moz-border-radius: 50%;
   -ms-border-radius: 50%;
   -o-border-radius: 50%;
-  background: linear-gradient(98.53deg, #E7C200 43.48%, #FBE054 67.98%, #E7C200 94.35%);
+  background-color: #E7C200;
   box-shadow: 0px 4px 40px rgba(36, 36, 36, 0.2);
-  transition: all 0.3s ease-in-out;
-  -webkit-transition: all 0.3s ease-in-out;
-  -moz-transition: all 0.3s ease-in-out;
-  -ms-transition: all 0.3s ease-in-out;
-  -o-transition: all 0.3s ease-in-out;
   padding-left: 3px;
   position: relative;
 }
