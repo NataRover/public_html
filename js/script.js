@@ -308,14 +308,14 @@ $(".quizebl6 .quizebl__item").click(function () {
     $('.quizebl6 .quizebl__btns').addClass('hover');
 });
 // quize
-$(".quize__next1").click(function () {
+$(".quizebl__item").click(function () {
     $('.quizebl1').hide();
     $('.quizebl2').show();
     $('.quizebl__line').addClass('nextt');
     $('.numberquestions__single').removeClass('active');
     $('.numberquestions__single2').addClass('active');
 });
-$(".quize__next2").click(function () {
+$(".quizebl__item2").click(function () {
     $('.quizebl2').hide();
     $('.quizebl3').show();
     $('.quizebl__line').addClass('nextt2');
@@ -329,16 +329,18 @@ $(".quize__next3").click(function () {
     $('.numberquestions__single').removeClass('active');
     $('.numberquestions__single4').addClass('active');
 });
-$(".quize__next4").click(function () {
+$(".quizebl__item4").click(function () {
     $('.quizebl4').hide();
     $('.quizebl5').show();
+    $('.quizebl2').hide();
     $('.quizebl__line').addClass('nextt4');
     $('.numberquestions__single').removeClass('active');
     $('.numberquestions__single5').addClass('active');
 });
-$(".quize__next5").click(function () {
+$(".quizebl__item5").click(function () {
     $('.quizebl5').hide();
     $('.quizebl7').show();
+    $('.quizebl2').hide();
     $('.quize__right').hide();
     $('.quizebl__line').addClass('nextt5');
     $('.numberquestions__single').hide();
