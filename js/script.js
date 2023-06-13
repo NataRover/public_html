@@ -146,7 +146,7 @@ $('.portfolio__sliderjs').slick({
     slidesToShow: 1,
     slidesToScroll: 1,
     autoplay: false,
-    infinite: false,
+    infinite: true,
     autoplaySpeed: 7000,
     arrows: true,
 });
