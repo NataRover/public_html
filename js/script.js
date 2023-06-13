@@ -146,7 +146,7 @@ $('.portfolio__sliderjs').slick({
     slidesToShow: 1,
     slidesToScroll: 1,
     autoplay: false,
-    infinite: false,
+    infinite: true,
     autoplaySpeed: 7000,
     arrows: true,
 });
@@ -346,8 +346,6 @@ $(".quizebl__item5").click(function () {
     $('.numberquestions__single').hide();
     $('.textlast').hide();
     $('.quize__left').addClass('lastv');
-
-
 });
 // $(".quize__next6").click(function() {
 //     $('.quizebl6').hide();
